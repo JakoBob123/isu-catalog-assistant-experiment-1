@@ -35,8 +35,6 @@ Seven cleaning passes. The one worth naming: **363 records (7.5%) contain a
 a naive whitespace clean, and silently breaks every exact-match comparison
 downstream. It was found by a behavioural test failing when it should have passed.
 
-→ **[docs/DATA.md](docs/DATA.md)** — provenance, full size breakdown, every
-cleaning pass, and what the data does *not* contain.
 
 ## The workflow
 
@@ -55,9 +53,6 @@ flowchart LR
     H -. "what to change next" .-> D
     H -. "what to change next" .-> F
 ```
-
-→ **[docs/WORKFLOW.md](docs/WORKFLOW.md)** — the full diagram, stage by stage,
-and the four feedback rounds so far.
 
 ## Experimental design — A/B at three levels
 
@@ -102,8 +97,6 @@ separates *dense retrieval helps* from *a pretrained encoder helps*.
 | paraphrase | 0.061 | 0.039 | | not in catalog | 0.333 | 0.500 |
 | topic | **0.944** | 0.925 | | out of scope | 0.000 | 0.250 |
 
-→ **[docs/EXPERIMENT.md](docs/EXPERIMENT.md)** — every configuration, metric
-definitions, and threats to validity.
 
 ## Three findings
 
