@@ -97,7 +97,6 @@ separates *dense retrieval helps* from *a pretrained encoder helps*.
 | paraphrase | 0.061 | 0.039 | | not in catalog | 0.333 | 0.500 |
 | topic | **0.944** | 0.925 | | out of scope | 0.000 | 0.250 |
 
-
 ## Three findings
 
 **1 · How you index beat what you index with.** The representation change moved
@@ -118,8 +117,6 @@ without its vocabulary are missed by every arm. That is the ceiling, and it is t
 category a real question most resembles. It is also the one a pretrained sentence
 encoder is most likely to lift — the arm this environment could not download.
 
-![retrieval quality by question type](results/chart_by_type.png)
-![behavioural refinement](results/chart_behavior.png)
 
 ## Repository map
 
@@ -195,5 +192,5 @@ is provisional** until that arm runs.
 
 ---
 
-*IT 344 · Illinois State University · data from the public
+*IT 244 · Illinois State University · data from the public
 [ISU course catalog](https://catalog.illinoisstate.edu).*
